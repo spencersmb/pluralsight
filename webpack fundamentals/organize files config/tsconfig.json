@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "target": "es2015",
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "./js/app.ts"
+  ]
+}
